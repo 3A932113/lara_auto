@@ -7,7 +7,10 @@
             "email": "3A932113@gm.student.ncut.edu.tw"
         }
     ],
-    "require": {},
+    "require": {
+        "monolog/monolog": "^3.2",
+        "nesbot/carbon":"^2.60"
+    },
     "autoload": {
         "psr-4": {
             "Demo\\": "./src/Demo"
